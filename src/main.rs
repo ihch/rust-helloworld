@@ -1,3 +1,8 @@
+mod modules;
+
 fn main() {
-    println!("Hello, world!");
+    println!("hello");
+    modules::hoge();
+    modules::hello_world::greet();
+    modules::greet();
 }
